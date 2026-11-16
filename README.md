@@ -404,6 +404,18 @@ It demonstrates how Linux administration, containerization, storage permissions,
 
 ---
 
+## Recent Improvements
+
+### Automated Email Notifications
+
+Sec Horizon Cloud now supports automated email delivery of newly generated Cloudflare Quick Tunnel URLs.
+
+The feature uses Bash, Gmail SMTP, and `msmtp` to notify multiple recipients while retaining the existing Telegram notification functionality.
+
+**[Read the technical implementation write-up](improvements/email-notifications.md)** 
+
+---
+
 **Author:** sak7tra
 
 **Topics:** `nextcloud` `self-hosting` `cloudflare-tunnel` `telegram-bot` `docker` `debian` `linux` `homelab` `automation` `privacy`
